@@ -2,7 +2,7 @@
 Contributors: brbaso
 Tags: learndash, assignments
 Author URI: https://github.com/brbaso/
-Plugin URI: https://github.com/brbaso/
+Plugin URI: https://github.com/brbaso/ld-assignment-uploads-ctrl
 Requires at least: 4.0
 Tested up to: 4.8.3
 Stable tag: 1.0
