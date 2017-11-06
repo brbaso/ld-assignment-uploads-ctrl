@@ -24,8 +24,6 @@ It:
 * allows an admin to set Assignment upload limitations: max. file size, allowed file extensions and max. number of uploaded files for Lessons/Topics
 * provides a Private checkbox in the upper right corner of every page, post, and custom post type selected in Settings
 
-For more BuddyPress plugins, please visit [PhiloPress](http://www.philopress.com/)
-
 == Installation ==
 
 1. Unzip and then upload the 'ld-assignment-uploads-ctrl' folder to the '/wp-content/plugins/' directory
