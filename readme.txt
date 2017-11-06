@@ -23,7 +23,6 @@ It:
 * will prevent logged in Users to upload an Assignment which does not fit limitations defined by administrator.
 * provides a Settings screen in wp-admin: LearnDash LMS -> LDAUC Setings
 * allows an admin to set Assignment upload limitations: max. file size, allowed file extensions and max. number of uploaded files for Lessons/Topics
-* provides a Private checkbox in the upper right corner of every page, post, and custom post type selected in Settings
 
 == Installation ==
 
