@@ -5,6 +5,7 @@ Author URI: https://github.com/brbaso/
 Plugin URI: https://github.com/brbaso/ld-assignment-uploads-ctrl
 Requires at least: 4.0
 Tested up to: 4.8.3
+Requires PHP: 5.6.x
 Stable tag: 1.0
 License: GPLv2 or later
 
