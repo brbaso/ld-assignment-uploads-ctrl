@@ -53,7 +53,7 @@ if( !class_exists('LDaucFunctions') ):
 
 
 		/**
-         * check assignments upload for file type, size and max allowed uploads
+		 * check assignments upload for file type, size and max allowed uploads
          *
 		 * @param $assignment_post_id
 		 * @param string $assignment_meta
@@ -146,7 +146,7 @@ if( !class_exists('LDaucFunctions') ):
 		}
 
 		/**
-         * override for learndash_mark_complete function - \wp-content\plugins\sfwd-lms\includes\course\ld-course-progress.php
+		 * override for learndash_mark_complete function - \wp-content\plugins\sfwd-lms\includes\course\ld-course-progress.php
          *
 		 * @return string
 		 */
