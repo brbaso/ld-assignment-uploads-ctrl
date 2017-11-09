@@ -1,6 +1,6 @@
 === LearnDash Assignment Uploads Control  ===
 Contributors: brbaso
-Tags: learndash, assignments
+Tags: learndash, assignments, LMS, learning management system, courses online
 Author URI: https://github.com/brbaso/
 Plugin URI: https://github.com/brbaso/ld-assignment-uploads-ctrl
 Requires at least: 4.0
