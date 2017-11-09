@@ -9,7 +9,7 @@ Requires PHP: 5.6.x
 Stable tag: 1.0
 License: GPLv2 or later
 
-A simple LearnDash Assignment Uploads Control plugin for [LearnDash](https://www.learndash.com/) LMS .
+A simple LearnDash Assignment Uploads Control plugin for [LearnDash](https://www.learndash.com/) LMS.
 
 == Description ==
 
