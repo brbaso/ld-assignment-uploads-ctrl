@@ -70,7 +70,7 @@ class LDaucFileUploadSettingsPage {
 	 * Section callback
 	 */
 	public function ld_file_upload_section_callback() {
-		echo __( 'Set file upload limitations.  ( "ld_file_upload_settings" option )', 'ldauc' );
+		echo __( 'Shortcode to be used in LearnDash Lessons/Topics template: [ld-markcomplete] ', 'ldauc' );
 	}
 
 	/**
