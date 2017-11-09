@@ -15,11 +15,11 @@ if ( !class_exists( 'LDaucLoader' ) ):
 		/**
 		 * empty constructor function to ensure a single instance
 		 */
-		public function __construct() {
+		public function __construct () {
 			// leave empty, see singleton below
 		}
 
-		public static function instance() {
+		public static function instance () {
 			static $instance = null;
 			if ( null === $instance ) {
 				$instance = new LDaucLoader;
@@ -32,7 +32,7 @@ if ( !class_exists( 'LDaucLoader' ) ):
 		/**
 		 * setup all
 		 */
-		public function setup() {
+		public function setup () {
 
 			$this -> load_dependencies();
 			$this -> hooks = new LDaucHooks();
@@ -45,7 +45,7 @@ if ( !class_exists( 'LDaucLoader' ) ):
 		/**
 		 * Load the required
 		 */
-		private function load_dependencies() {
+		private function load_dependencies () {
 
 			require_once LDAUC_PLUGIN_DIR . 'helpers/DbHelper.php';
 			require_once LDAUC_PLUGIN_DIR . 'inc/LDaucFunctions.php';
@@ -57,18 +57,16 @@ if ( !class_exists( 'LDaucLoader' ) ):
 		 * of the plugin.
 		 *
 		 */
-		private function define_admin_hooks() {
+		private function define_admin_hooks () {
 
 			$plugin_functions = LDaucFunctions ::instance();
 
-			$actions_to_add = [
-				// admin scripts
+			$actions_to_add = [ // admin scripts
 				'admin_enqueue_scripts' => [ [ $plugin_functions, 'ldauc_admin_enqueue_styles' ], [ $plugin_functions, 'ldauc_admin_enqueue_scripts' ] ],
 
 			];
 
-			$filters_to_add = [
-			];
+			$filters_to_add = [];
 
 			$this -> hooks -> actions_to_add( $actions_to_add );
 			$this -> hooks -> filters_to_add( $filters_to_add );
@@ -79,7 +77,7 @@ if ( !class_exists( 'LDaucLoader' ) ):
 		 * of the plugin and the widget.
 		 *
 		 */
-		private function define_public_hooks() {
+		private function define_public_hooks () {
 
 			$plugin_functions = LDaucFunctions ::instance();
 
@@ -96,8 +94,7 @@ if ( !class_exists( 'LDaucLoader' ) ):
 
 			];
 
-			$filters_to_add = [
-			];
+			$filters_to_add = [];
 
 			$this -> hooks -> actions_to_add( $actions_to_add );
 			$this -> hooks -> filters_to_add( $filters_to_add );
@@ -107,7 +104,7 @@ if ( !class_exists( 'LDaucLoader' ) ):
 		 * Run to execute all of the hooks with WordPress.
 		 *
 		 */
-		public function run() {
+		public function run () {
 			$this -> hooks -> run();
 		}
 	}
