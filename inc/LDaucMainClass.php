@@ -15,17 +15,17 @@ if ( !class_exists( 'LDaucMainClass' ) ):
 		private $admin_includes = [ 'LDaucFileUploadSettingsPage' ];
 		private $partials = [ 'LDaucFileUploadSettingsAdminView' ];
 		private $helpers = [ 'GetTemplateHelper', 'DbHelper' ];
-		public  $functions;
-		public  $plugin_dir = '';
-		public  $includes_dir = '';
-		public  $partials_dir = '';
-		public  $helpers_dir = '';
+		public $functions;
+		public $plugin_dir = '';
+		public $includes_dir = '';
+		public $partials_dir = '';
+		public $helpers_dir = '';
 
 		/**
 		 * Main LDaucMainClass Instance.
 		 *
 		 */
-		public static function instance() {
+		public static function instance () {
 
 			// Store the instance locally to avoid private static replication
 			static $instance = null;
@@ -40,14 +40,14 @@ if ( !class_exists( 'LDaucMainClass' ) ):
 			return $instance;
 		}
 
-		private function __construct() { /* Do nothing here */
+		private function __construct () { /* Do nothing here */
 		}
 
 		/**
 		 * Init.
 		 *
 		 */
-		private function init() {
+		private function init () {
 
 			$this -> plugin_dir = LDAUC_PLUGIN_DIR;
 
@@ -71,7 +71,7 @@ if ( !class_exists( 'LDaucMainClass' ) ):
 		 * Include required File Upload Settings admin files.
 		 *
 		 */
-		public function load_file_upload_admin() {
+		public function load_file_upload_admin () {
 
 			$this -> do_includes( $this -> admin_includes );
 			$this -> do_include_partials( $this -> partials );
@@ -87,8 +87,9 @@ if ( !class_exists( 'LDaucMainClass' ) ):
 		 * Include required files.
 		 *
 		 */
-		public function load_main(  ) {
+		public function load_main () {
 			$this -> do_includes( $this -> includes );
+
 			return LDaucLoader ::instance();
 		}
 
@@ -96,7 +97,7 @@ if ( !class_exists( 'LDaucMainClass' ) ):
 		 * Load Functions.
 		 *
 		 */
-		public function load_functions() {
+		public function load_functions () {
 			require_once( $this -> includes_dir . '/LDaucFunctions.php' );
 
 			return LDaucFunctions ::instance();
@@ -106,7 +107,7 @@ if ( !class_exists( 'LDaucMainClass' ) ):
 		 * Include helpers.
 		 *
 		 */
-		public function load_helpers() {
+		public function load_helpers () {
 			$this -> do_include_helpers( $this -> helpers );
 		}
 
@@ -114,7 +115,7 @@ if ( !class_exists( 'LDaucMainClass' ) ):
 		 * Include required array of files in the includes directory
 		 * @param array $includes
 		 */
-		public function do_includes( $includes = [] ) {
+		public function do_includes ( $includes = [] ) {
 			foreach ( $includes as $include ) {
 				require_once( $this -> includes_dir . '/' . $include . '.php' );
 			}
@@ -124,7 +125,7 @@ if ( !class_exists( 'LDaucMainClass' ) ):
 		 * Include required array of files in the partials directory
 		 * @param array $partials
 		 */
-		public function do_include_partials( $partials = [] ) {
+		public function do_include_partials ( $partials = [] ) {
 			foreach ( $partials as $partial ) {
 				require_once( $this -> partials_dir . '/' . $partial . '.php' );
 			}
@@ -134,7 +135,7 @@ if ( !class_exists( 'LDaucMainClass' ) ):
 		 * Include required array of files in the helpers directory
 		 * @param array $helpers
 		 */
-		public function do_include_helpers( $helpers = [] ) {
+		public function do_include_helpers ( $helpers = [] ) {
 			foreach ( $helpers as $helper ) {
 				require_once( $this -> helpers_dir . '/' . $helper . '.php' );
 			}
