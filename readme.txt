@@ -51,9 +51,9 @@ No. it is planned for further development
 == Screenshots ==
 1. Shows the Settings page
 2. Shows the Front End
-3. Shows the Front End bad upload Notice - max. file size
-4. Shows the Front End bad upload Notice - bad file extension
-5. Shows the Front End bad upload Notice - max. number of uploads allowed
+3. Shows the Front End 'bad' upload Notice - max. file size
+4. Shows the Front End 'bad' upload Notice - file extension not allowed
+5. Shows the Front End 'bad' upload Notice - max. number of uploads allowed
 
 == Changelog ==
 = 1.0 =
