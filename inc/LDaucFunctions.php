@@ -147,7 +147,7 @@ if( !class_exists('LDaucFunctions') ):
 
 		/**
 		 * override for learndash_mark_complete function - \wp-content\plugins\sfwd-lms\includes\course\ld-course-progress.php
-         *
+		 *
 		 * @return string
 		 */
 		public function ldauc_learndash_mark_complete() {
@@ -188,8 +188,8 @@ if( !class_exists('LDaucFunctions') ):
 		}
 
 		/**
-         * get assignements for a specific user
-         *
+		 * get assignements for a specific user
+		 *
 		 * @param string $user_id
 		 * @param bool $published
 		 * @return array
