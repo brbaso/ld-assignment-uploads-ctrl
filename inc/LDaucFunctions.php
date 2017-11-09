@@ -173,7 +173,14 @@ if( !class_exists('LDaucFunctions') ):
 		}
 
 		/**
-		 * function to add shortcode, hooked to 'init'
+		 * function to add [ld-markcomplete] shortcode, hooked to 'init'
+		 *
+		 * This shortcode should be used in LearnDash lesson and topic templates by replacing LearnDash original 'learndash_mark_complete' function.
+		 *
+		 * e.g. in your lesson.php or topic.php template, in Display Lesson Assignments section, replace line :
+		 * " echo learndash_mark_complete( $post ); "
+		 * with the new [ld-markcomplete] shortcode line :
+		 * " echo do_shortcode("[ld-markcomplete]"); "
 		 *
 		 */
 		public function register_shortcodes(){
