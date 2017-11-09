@@ -22,7 +22,8 @@ It:
 
 * will prevent logged in Users to upload an Assignment which does not fit limitations defined by administrator.
 * provides a Settings screen in wp-admin: LearnDash LMS -> LDAUC Setings
-* allows an admin to set Assignment upload limitations: max. file size, allowed file extensions and max. number of uploaded files for Lessons/Topics
+* provides [ld-markcomplete] short code to be placed in LearnDash Lesson and Topic templates
+* allows admin to set Assignment upload limitations: 'max. file size', 'allowed file extensions' and 'max. number of uploaded files' for LearnDash Lessons/Topics
 * allows you to adjust and additionally style the 'bad' upload Notice page and upload Assignment section information in your Topics and Lessons
 * allows you to make Template override folder in your Theme and make layout and style there, keeping them update safe ...
 
@@ -34,7 +35,7 @@ It:
 
 3. Go to LearnDash LMS -> LDAUC Setings and set your options.
 
-4. go to your lesson.php or topic.php template, in Display Lesson Assignments section, replace line :
+4. go to your LearnDash lesson.php or topic.php template and in 'Display Lesson Assignments' section, replace line :
 " echo learndash_mark_complete( $post ); "
 with the new [ld-markcomplete] shortcode line :
 " echo do_shortcode("[ld-markcomplete]"); "
@@ -52,9 +53,9 @@ No. it is planned for further development
 == Screenshots ==
 1. Shows the Settings page
 2. Shows the Front End
-3. Shows the Front End bad upload notice - max. file size
-4. Shows the Front End bad upload notice - bad file extension
-5. Shows the Front End bad upload notice - max. number of uploads allowed
+3. Shows the Front End bad upload Notice - max. file size
+4. Shows the Front End bad upload Notice - bad file extension
+5. Shows the Front End bad upload Notice - max. number of uploads allowed
 
 == Changelog ==
 = 1.0 =
