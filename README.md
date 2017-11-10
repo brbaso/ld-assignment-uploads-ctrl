@@ -1,4 +1,4 @@
-** LearnDash Assignment Uploads Control**
+**LearnDash Assignment Uploads Control**
 
 A simple WP plugin for [LearnDash](https://www.learndash.com/) Learning Management System.
 
