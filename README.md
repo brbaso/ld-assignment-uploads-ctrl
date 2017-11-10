@@ -2,7 +2,7 @@
 
 A simple WP plugin for [LearnDash](https://www.learndash.com/) Learning Management System.
 
-###Description
+### Description
 
 This LearnDash plugin allows administrators to set limitations like **max. file size**, **allowed file extensions** and **max. number of uploads** for LearnDash Lessons and Topics assignment uploads.
 
@@ -18,7 +18,7 @@ The plugin is translation ready.
 
 Layout, styling of plugin's front end or adding additional java script to the front end if needed, can be managed within files placed in plugin's **'templates'** folder. This files could be overridden by adding **'ld-assignment-uploads-ctrl'** folder to your Theme or Child Theme and copying them to it.
 
-###Installation
+### Installation
 
 1. Unzip and then upload the **'ld-assignment-uploads-ctrl'** folder to the **'/wp-content/plugins/'** directory
 
