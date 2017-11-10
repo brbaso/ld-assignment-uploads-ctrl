@@ -45,13 +45,12 @@ It:
 3. Go to **LearnDash LMS -> LDAUC Setings** and set your options.
 
 4. go to your LearnDash lesson.php or topic.php template and in 'Display Lesson Assignments' section, **replace line** :
-```
-echo learndash_mark_complete( $post );
-```
-**with** the new [ld-markcomplete] shortcode line :
-```
-echo do_shortcode("[ld-markcomplete]");
-```
+
+  **echo learndash_mark_complete( $post );**
+
+  **with** the new [ld-markcomplete] shortcode line :
+
+  **echo do_shortcode("[ld-markcomplete]");**
 
 5. If you want to additionaly style or change layout of the the 'bad' upload Notice page or upload Assignment section information in your Topics and Lessons you can do that in **Plugin's templates directory**.
 
