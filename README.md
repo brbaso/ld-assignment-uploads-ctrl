@@ -35,6 +35,12 @@ echo learndash_mark_complete( $post );
 echo do_shortcode("[ld-markcomplete]");
 ```
 
-5. If you want to additionaly style or change layout of the the 'bad' upload Notice page or upload Assignment section information in your Topics and Lessons you can do that in **Plugin's templates directory** Alternatively you can create **'ld-assignment-uploads-ctrl' folder** in your Theme or Child Theme. After you created the folder copy content from Plugin's Template folder to the newly created folder in your Theme or Child Theme. Edit layouts, css or js there, the original Plugin's files are overridden now with your own layouts and styles...
+5. If you want to additionaly style or change layout of the the 'bad' upload Notice page or upload Assignment section information in your Topics and Lessons you can do that in **Plugin's templates directory**. 
+
+    Alternatively you can create **'ld-assignment-uploads-ctrl' folder** in your Theme or Child Theme. 
+    
+    After you created the folder copy content from Plugin's Template folder to the newly created folder in your Theme or Child Theme. 
+    
+    Edit layouts, css or js there, the original Plugin's files are overridden now with your own layouts and styles...
 
 
