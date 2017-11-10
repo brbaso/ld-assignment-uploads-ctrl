@@ -1,0 +1,1 @@
+A simple LearnDash Assignment Uploads Control plugin for [LearnDash](https://www.learndash.com/) LMS .
