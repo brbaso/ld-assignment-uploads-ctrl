@@ -26,7 +26,7 @@ class LDaucFileUploadSettingsAdminView {
 		?>
         <div class="wrap">
             <div class="wrap-left">
-                <h1> <?php echo __( 'LearnDash Assignment Uploads Control Settins', 'ldauc' ); ?> </h1>
+                <h1> <?php echo __( 'LearnDash Assignment Uploads Control Settings', 'ldauc' ); ?> </h1>
                 <form action="options.php" method="POST">
 					<?php settings_fields( 'ld_file_upload_settings' ); ?>
 					<?php do_settings_sections( 'learndash-lms/file-upload-settings' ); ?>
