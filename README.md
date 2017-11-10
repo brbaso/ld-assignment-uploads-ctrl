@@ -8,6 +8,8 @@ This LearnDash plugin allows administrators to set limitations like **max. file 
 
 The plugin adds 'LDAUC Settings' submenu under Learndash LMS admin link. By clicking on the link **'LearnDash Assignment Uploads Control Settings'** page appears where upload options can be set.
 
+![LearnDash Assignment Uploads Control Settings](http://brbaso.com/images/ld-assignment-uploads-ctrl/screenshot-1.png)
+
 Once the options are set, all users, which are logged in and assigned to a LD Course will see additional information on their Lessons/Topics Assignment upload sections.
 
 If a 'bad' Assignment upload is performed, that is one which do not fit limitations set in the **'LearnDash Assignment Uploads Control Settings'** page, the User will see a new page with a Notice about what was wrong and with a  link back to the Lesson/Topic page to try another upload. In this case the 'bad' Assignment will be disregarded and will not be uploaded.
