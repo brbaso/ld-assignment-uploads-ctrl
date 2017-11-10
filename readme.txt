@@ -38,18 +38,28 @@ It:
 
 == Installation ==
 
-1. Unzip and then upload the 'ld-assignment-uploads-ctrl' folder to the '/wp-content/plugins/' directory
+1. Unzip and then upload the **'ld-assignment-uploads-ctrl'** folder to the **'/wp-content/plugins/'** directory
 
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-3. Go to LearnDash LMS -> LDAUC Setings and set your options.
+3. Go to **LearnDash LMS -> LDAUC Setings** and set your options.
 
-4. go to your LearnDash lesson.php or topic.php template and in 'Display Lesson Assignments' section, replace line :
-" echo learndash_mark_complete( $post ); "
-with the new [ld-markcomplete] shortcode line :
-" echo do_shortcode("[ld-markcomplete]"); "
+4. go to your LearnDash lesson.php or topic.php template and in 'Display Lesson Assignments' section, **replace line** :
+```
+echo learndash_mark_complete( $post );
+```
+**with** the new [ld-markcomplete] shortcode line :
+```
+echo do_shortcode("[ld-markcomplete]");
+```
 
-5. If you want to additionaly style or change layout of the the 'bad' upload Notice page and upload Assignment section information in your Topics and Lessons you can do that in Plugin's Template directory or you can create 'ld-assignment-uploads-ctrl' folder in your Theme/Child Theme folder, copy content from Plugin's Template folder to the new folder in Theme/Child Theme directory and make additions/changes there.
+5. If you want to additionaly style or change layout of the the 'bad' upload Notice page or upload Assignment section information in your Topics and Lessons you can do that in **Plugin's templates directory**.
+
+    Alternatively you can create **'ld-assignment-uploads-ctrl' folder** in your Theme or Child Theme.
+
+    After you created the folder copy content from Plugin's Template folder to the newly created folder in your Theme or Child Theme.
+
+    Edit layouts, css or js there, the original Plugin's files are overridden now with your own layouts and styles...
 
 == Frequently Asked Questions ==
 
