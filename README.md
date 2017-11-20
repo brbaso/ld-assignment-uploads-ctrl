@@ -50,7 +50,7 @@ Layout, styling of plugin's front end or adding additional java script to the fr
 
 3. Go to **LearnDash LMS -> LDAUC Setings** and set your options.
 
-4. go to your LearnDash lesson.php or topic.php template and in 'Display Lesson Assignments' section, **replace line** :
+4. go to your LearnDash lesson.php or topic.php template and in 'Display Mark Complete Button' section, **replace line** :
 ```
 echo learndash_mark_complete( $post );
 ```
