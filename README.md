@@ -67,4 +67,6 @@ echo do_shortcode("[ld-markcomplete]");
     
     Edit layouts, css or js there, the original Plugin's files are overridden now with your own layouts and styles...
 
+## TO DO
 
+Make changes/additions so that plugin work with the newest LearnDash Version 2.5.1

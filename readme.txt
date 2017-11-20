@@ -76,6 +76,11 @@ No. it is planned for further development
 4. Shows the Front End 'bad' upload Notice - file extension not allowed
 5. Shows the Front End 'bad' upload Notice - max. number of uploads allowed
 
+
+## TO DO
+
+Make changes/additions so that plugin work with the newest LearnDash Version 2.5.1
+
 == Changelog ==
 = 1.0 =
 * Initial release.
