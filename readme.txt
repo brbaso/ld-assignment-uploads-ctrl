@@ -15,6 +15,9 @@ A simple LearnDash Assignment Uploads Control plugin for [LearnDash](https://www
 
 This LearnDash plugin allows administrators to set limitations like **max. file size**, **allowed file extensions** and **max. number of uploads** for LearnDash Lessons and Topics assignment uploads.
 
+**notice:**
+Since Version 2.5.1, LearnDash introduced assignment upload control parameters at Lesson and Topic level. This plugin will be adapted for those changes soon enough, but until then it is recomennded for use on LearnDash versions < 2.5.1
+
 The plugin adds 'LDAUC Settings' submenu under Learndash LMS admin link. By clicking on the link **'LearnDash Assignment Uploads Control Settings'** page appears where upload options can be set.
 
 Once the options are set, all users, which are logged in and assigned to a LD Course will see additional information about upload limitations on their Lessons/Topics Assignment upload sections.
