@@ -3,7 +3,7 @@
 A simple WP plugin for [LearnDash](https://www.learndash.com/) Learning Management System.
 
 **notice:**
-Since Version 2.5.1, LearnDash introduced assignment upload control parameters at Lesson and Topic level. This plugin will be adapted for those changes soon enough, but until then it is recomennded for use on LearnDash versions < 2.5.1
+Since Version 2.5.0, LearnDash introduced assignment upload control parameters at Lesson and Topic level. This plugin will be adapted for those changes soon enough, but until then it is recomennded for use on LearnDash versions < 2.5.0
 
 
 ### Description
