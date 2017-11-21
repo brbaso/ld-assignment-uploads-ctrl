@@ -69,4 +69,4 @@ echo do_shortcode("[ld-markcomplete]");
 
 ## TO DO
 
-Make changes/additions so that plugin work with the newest LearnDash Version 2.5.1
+Make changes/additions so that plugin work with the newest LearnDash Version >= 2.5.0
