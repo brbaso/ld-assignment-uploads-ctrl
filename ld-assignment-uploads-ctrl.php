@@ -5,7 +5,7 @@
  * Author: Slobodan Brbaklic
  * Author Email: brbaso@gmail.com
  * Author URI: https://github.com/brbaso/
- * Version:     1.0.0
+ * Version:     1.0.2
  * Text Domain: ldauc
  * Domain Path: /languages/
  * License:   GPLv2 or later

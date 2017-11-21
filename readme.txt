@@ -6,7 +6,7 @@ Plugin URI: https://github.com/brbaso/ld-assignment-uploads-ctrl
 Requires at least: 4.0
 Tested up to: 4.8.3
 Requires PHP: 5.6.x
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 A simple LearnDash Assignment Uploads Control plugin for [LearnDash](https://www.learndash.com/) LMS .
@@ -79,9 +79,11 @@ No. it is planned for further development
 
 ## TO DO
 
-Make changes/additions so that plugin work with the newest LearnDash Version 2.5.1
+Make changes/additions so that plugin work with the newest LearnDash Version >= 2.5.0
 
 == Changelog ==
+= 1.0.2 =
+* some fixes.
 
 = 1.0.1 =
 * Notice about LearnDash version.
